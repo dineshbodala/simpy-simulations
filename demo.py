@@ -6,7 +6,7 @@ AVG_SUPPORT_TIME = 2
 CUSTOMER_INTERVAL = 0.02
 SIM_TIME = 60
 employees_needed = None
-
+customers_handled = 0  # Add this line to initialize the variable
 
 class Supermarket:
     def __init__(self, env, num_employees, support_time, break_time):
